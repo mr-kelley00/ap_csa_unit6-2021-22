@@ -4,7 +4,7 @@ public class JacksonStanton00 {
 
     public static void main(String[] args) {
 
-        
+        String[] carArr = {"BMW M5", "Ferrari 250 GTO", "Porsche 911", "Ford F150 Lightning", "Buick Skylark"};
         int[] myGrades = {100, 25, 15, -3, 0, 75, 35}; 
         double[] myBankAccount = {0.0, -1.25, 3.75, 456.99, 25.25, 12.123456, 3.14};
         
@@ -16,25 +16,35 @@ public class JacksonStanton00 {
             // Statement 3 is executed EACH TIME THE LOOP RUNS. 
 
         }
-
-        for (i = 0; i < carArr.length(); i++) {
-
-
-        }
         */ 
+        
+        for (int i = 0; i < carArr.length; i++) {
+            // System.out.println(i); <-- Print the index variable. 
+            // System.out.println(carArr[i]); <-- Access each element.  
+              
+            if (carArr[i].length() % 2 == 0) {
+                System.out.println(carArr[i]);
+                System.out.println("This string has an even length.");
+            } else {
+                System.out.println(carArr[i]);
+                System.out.println("This string has an odd length.");
+            }
+        }
+       
 
-        String[] carArr = {"BMW M5", "Ferrari 250 GTO", "Porsche 911", "Ford F150 Lightning", "Buick Skylark"};
-        System.out.println(carArr[3]);
+        
+        // System.out.println(carArr[3]);
         // ONCE CREATED YOU CANNOT CHANGE THE SIZE OF AN ARRAY.  IT IS FORBIDDEN! 
-        carArr[0] = "Volkswagen Passat"; 
+        // carArr[0] = "Volkswagen Passat"; 
 
+
+
+        /* Enhanced For Loop 
         for (String eachElement : carArr ) {
             // Code to execute. 
             System.out.println(eachElement);
-    
-
         }
-
+        */
 
 
     }
