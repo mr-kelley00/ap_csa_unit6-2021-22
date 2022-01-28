@@ -18,7 +18,7 @@ public class JacksonStanton00 {
         }
         */ 
         
-        for (int i = -1; i < carArr.length; i--) {
+        for (int i = 0; i < carArr.length; i++) {
             // System.out.println(i); <-- Print the index variable. 
             // System.out.println(carArr[i]); <-- Access each element.  
               
