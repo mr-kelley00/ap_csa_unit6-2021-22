@@ -46,7 +46,23 @@ public class JacksonStanton00 {
         }
         */
 
-        
+        // 2D Arrays
+
+        int[][] twoDIntArr = {{4, -1, 2, 5},{8, 9, 17, -5}};
+
+        System.out.println(twoDIntArr[0][2]);
+        System.out.println(twoDIntArr[1][3]);
+
+        // Nested for loop
+
+        for (int i = 0; i < twoDIntArr.length; ++i ) {
+            for (int j = 0; j < twoDIntArr[i].length; ++j) {
+                System.out.println(twoDIntArr[i][j]);
+
+            }
+
+        }
+
 
 
     }
